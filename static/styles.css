@@ -1,0 +1,33 @@
+body {
+    background-color: #f8f9fa;
+
+}
+
+.container {
+    margin-top: 8%;
+    position: relative;
+}
+
+.jumbotron{
+    background-color: #44494e;
+    color: #fff;
+    padding: 20px;
+    padding-bottom: 50px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+textarea{
+    resize: vertical;
+}
+
+button {
+    cursor: pointer;
+    background-color: #f8f9fa;
+    border-color: white;
+    position: absolute;
+    right: 47%;
+    top: 255px;
+}

@@ -1,7 +1,7 @@
 from sklearn.feature_extraction.text import CountVectorizer
 from flask import Flask, render_template, request
 import joblib
-app = Flask(__name__)
+app = Flask(__name__, static_url_path ='/static')
 
 model = joblib.load('sentiment_analysis_model.joblib')
 

@@ -1,0 +1,8 @@
+[build]
+  command = "npm run build"  # Replace with your build command
+  publish = "sentiment/templates"  # Adjust the path based on your project structure
+
+[[redirects]]
+  from = "/api/*"
+  to = "/sentiment/app.py"
+  status = 200
